@@ -1,4 +1,6 @@
 # SMS Reaper
+This is a program that will spam a phone number with texts through a spam email.
+This program is for educational use only and I do not take responsibilty for anything you use it for.
 **Before you use**
 ```
 Step 1: Open command prompt
