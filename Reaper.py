@@ -27,7 +27,7 @@ print("-⬇-https://freecarrierlookup.com/-⬇-")
 number = input("| Enter victims phone mail: ")
 msg = input("| Message: ") #your txt message
 text_amount = int(input("| How many texts: ")) #amount sent
-msgdelay = float(input("| Message Delay: ")) # Anything less than 0.25 is risky and may break the program
+msgdelay = float(input("| Message Delay: ")) # !!Anything less than 0.25 is risky and may break the program!!
 
 startchoice = str(input("| Start? (y/n) "))
 if startchoice.lower() == "n":
