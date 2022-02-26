@@ -1,6 +1,7 @@
 # SMS Reaper
 This is a program that will spam a phone number with texts through a spam email.
 This program is for educational use only and I do not take responsibilty for anything you use it for.  
+You can use multiple emails to not get rate limited on one email.  
 
 **Before you use**
 ```
