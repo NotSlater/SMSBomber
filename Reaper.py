@@ -1,4 +1,4 @@
-## Slater's SMS Bomber ##
+## NotSlater's SMS Bomber ##
 import sys
 import time
 import smtplib
