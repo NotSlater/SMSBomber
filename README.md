@@ -5,7 +5,7 @@ This program is for educational use only and I do not take responsibilty for any
 You can use multiple emails to not get rate limited on one email.  
 
 ## Disclaimer
-[This program](https://github.com/NotSlater/External-Cheat-Menu-Example) is for educational purposes only!
+[This program](https://github.com/NotSlater/SMSBomber) is for educational purposes only!
 
 Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research.
 
