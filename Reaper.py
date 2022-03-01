@@ -2,9 +2,7 @@
 import sys
 import time
 import smtplib
-#import tkinter.messagebox
 from tkinter import messagebox
-#import tkMessageBox as messagebox
 
 print(" _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ ")
 print("|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|")
@@ -18,7 +16,7 @@ print("|_|                 Made By NotSlater#0999                      |_|")
 print(" _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ ")
 print("|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|")
 
-#CONFIG. You can change any of the values on the right.
+#Config You can change any of the values on the right.
 email_provider = 'smtp.gmail.com' #server for your email
 email_address = "EXAMPLENAME@gmail.com" #insert your email here
 email_port = 587 #port for email server
@@ -26,12 +24,12 @@ password = "EXAMPLEPASSWORD" #insert your email password here
 print("-⬇-https://freecarrierlookup.com/-⬇-")
 number = input("| Enter victims phone mail: ")
 msg = input("| Message: ") #your txt message
-text_amount = int(input("| How many texts: ")) #amount sent
+text_amount = int(input("| How many texts: ")) # Amount of texts to send
 msgdelay = float(input("| Message Delay: ")) # !!Anything less than 0.25 is risky and may break the program!!
 
 startchoice = str(input("| Start? (y/n) "))
 if startchoice.lower() == "n":
-    messagebox.showinfo(title="Spammer Stopped", message="Mass SMS Spammer Stopped")
+    messagebox.showinfo(title="SMS Reaper", message="Mass SMS Reaper Stopped")
     sys.exit()
 
 
@@ -48,5 +46,5 @@ if startchoice.lower() == "n":
             time.sleep(msgdelay)
             text_amount = text_amount - 1
             
-    print("{} texts were sent successfully!".format(numb))
+    print("{} Texts were successfully sent!".format(numb))
     server.quit()
